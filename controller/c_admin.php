@@ -28,7 +28,13 @@ if (isset($_GET['act'])) {
         case 'adminEditCate':
             $view_name = "page_adminEditCate";
             break;
+<<<<<<< Updated upstream
 
+=======
+        case 'adminBill':
+            $view_name = "page_adminBill";
+            break;
+>>>>>>> Stashed changes
         default:
             $view_name = "page_adminHome";
             break;
